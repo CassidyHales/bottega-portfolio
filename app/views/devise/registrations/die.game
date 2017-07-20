@@ -1,0 +1,12 @@
+# Create a game where you roll 1 die and the computer rolls 1 die and you see whos is greater.
+
+# On a tie roll again.
+
+# Play to 5 victories.
+
+# ask to play again.
+
+class Dice
+	def initialize(sides = 6)
+		@sides = sides
+	end
