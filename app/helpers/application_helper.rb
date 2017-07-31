@@ -16,6 +16,10 @@ module ApplicationHelper
 		end
 	end
 
+	def copyright_generator
+		@copyright = Hales::Renderer.copyright 'Cassidy Hales', 'All rights reserved'
+	end
+
 	def nav_items
 		[
 			{
