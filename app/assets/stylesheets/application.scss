@@ -14,12 +14,18 @@ a:hover {
 
 /* Custom default button */
 .btn-secondary,
-.btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.btn-secondary:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 
