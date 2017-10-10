@@ -1,5 +1,5 @@
 app/models/blog.rb 96648fdced2eebbc7d039f17130301ab706c7198
-app/models/user.rb a54d7a548b542ff94db39995f40c99eb8946fa3c
+app/models/user.rb 9a459f83c131d1259918a1b77e5676b12ea9e427
 lib/social_tool.rb c8563237ae01f19abbbba0343d4b78027ccaa6cb
 app/models/skill.rb 7709a0d947db8bef3ed563bb0976d4c49a628b0a
 app/models/topic.rb c09436d9cb5d1eb12903fee2a7b7b92438bc6d5f
@@ -15,7 +15,7 @@ app/channels/blogs_channel.rb a585117a68c18794f410e70bc7cb3c14e42898eb
 app/helpers/comments_helper.rb 81385383086d2585589cfc71b911da8e57750de3
 app/helpers/portfolios_helper.rb 6c75df0a8f1792ca92fb970c938ce54119711329
 app/models/application_record.rb b40193a5447806d689d114a0f55f392ae7c199e4
-app/helpers/application_helper.rb 6eb3105e482a0989deff59965360d73e989b306d
+app/helpers/application_helper.rb 2d2b6bd8060539aa288b5a3e0bbc1beddb23b2b0
 app/jobs/comment_broadcast_job.rb 3c24958fe0fecf67fe194ad50e4e72cc938b37b7
 app/mailers/application_mailer.rb d8f3c8a175c9b44ee0ed7e8120eb5ca3c252d1cb
 app/models/concerns/placeholder.rb 911ef0d02e9f05e7ea2faafc7dee948e90800de7
