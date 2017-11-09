@@ -82,7 +82,7 @@ def toggle_status
     @blog.published!
   elsif @blog.published?
     @blog.draft!
-  end
+end
   
   redirect_to blogs_url, notice: 'Post status has been updated.'
 end
